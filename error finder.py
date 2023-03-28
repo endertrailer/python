@@ -14,4 +14,4 @@ try:
                 error = error + 1
     print(f"there are {error} errors")
 except IndexError:
-    print("the sentences have to be same length")
+    print("the sentences have to be the same length")
